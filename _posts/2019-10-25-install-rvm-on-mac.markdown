@@ -6,6 +6,11 @@ categories: jekyll update
 ---
 On Linux or Mac OS you can run this initial command to install RVM as follows:
 ```sh
-curl -l get.rvm.io | bash -s stable
-source ~/.rvm/scripts/'rvm'
+$ curl -l get.rvm.io | bash -s stable
+$ source ~/.rvm/scripts/'rvm'
 ```
+After this has been successfully run,you can verify it youself.
+```bash
+$ rvm list known
+```
+
