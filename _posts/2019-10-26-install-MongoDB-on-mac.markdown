@@ -5,6 +5,7 @@ date:   2019-10-26 00:46:40 +0900
 categories: jekyll update
 ---
 + User brew:
+
 ```bash
 $ brew tap mongodb/brew
 $ brew install mongodb-community
@@ -20,9 +21,11 @@ Or, if you don't want/need a background service you can just run:
 🍺  /usr/local/Cellar/mongodb-community/4.2.1: 21 files, 273.5MB, built in 12 minutes 30 seconds
 
 ```
+
 + The default mongod.conf:
 
 `/usr/local/etc/mongod.conf`
+
 ```
 systemLog:
   destination: file
@@ -35,31 +38,37 @@ net:
 ```
 
 + To run MongoDB in the foreground
+
 ```
 $ mongod --config /usr/local/etc/mongod.conf
 ```
 
 + To run in the background instead, include --fork
+
 ```
 $ mongod --config /usr/local/etc/mongod.conf --fork
 ```
 
 + Connect to MongoDB
+
 ```
 mongo
 ```
 
 + To display the database you are using
+
 ```
 db
 ```
 
 + To switch databases
+
 ```
 use <db>
 ```
 
 + Insert and Query
+
 ```
 $ mongo
 MongoDB shell version v4.2.1
