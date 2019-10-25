@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "install MongoDB on Mac"
+title:  "Comparing MongoDB versus SQL syntax"
 date:   2019-10-25 01:46:40 +0900
 categories: jekyll update
 ---
